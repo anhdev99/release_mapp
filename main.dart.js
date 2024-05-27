@@ -9878,8 +9878,8 @@ aDH:function aDH(){},
 aDN:function aDN(){},
 rN:function rN(a){this.a=a},
 Zv:function Zv(a){var _=this
-_.e=$
-_.a=_.r=_.f=null
+_.d=$
+_.a=_.f=_.e=null
 _.b=a
 _.c=null},
 aws:function aws(){},
@@ -10180,7 +10180,7 @@ aZU(a,b,c,d){var s=0,r=A.v(t.k8),q,p=2,o,n,m,l,k
 var $async$R1=A.w(function(e,f){if(e===1){o=f
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.q(A.aEX(null).a0b("http://appaparking.dthu.edu.vn/api/v1/"+a,b,c,d,t.z),$async$R1)
+return A.q(A.aEX(null).a0b("https://appaparking.dthu.edu.vn/api/v1/"+a,b,c,d,t.z),$async$R1)
 case 7:m=f
 q=m
 s=1
@@ -52672,12 +52672,12 @@ ao(){return new A.Zv(B.k)}}
 A.Zv.prototype={
 aG(){this.b8()
 this.dv(0)},
-n(){var s=this.r
+n(){var s=this.f
 if(s!=null)s.n()
 this.b0()},
 la(){var s=0,r=A.v(t.H),q=this,p,o,n,m,l,k
 var $async$la=A.w(function(a,b){if(a===1)return A.r(b,r)
-while(true)switch(s){case 0:k=q.f
+while(true)switch(s){case 0:k=q.e
 k.toString
 s=2
 return A.q(q.m9(k),$async$la)
@@ -52693,7 +52693,7 @@ l.f=k
 k=(self.URL||self.webkitURL).createObjectURL(k)
 k.toString
 l.c=k
-q.f=l
+q.e=l
 q.a0(new A.aws())}return A.t(null,r)}})
 return A.u($async$la,r)},
 m9(a){return this.avC(a)},
@@ -52741,8 +52741,8 @@ var $async$nw=A.w(function(a,b){if(a===1)return A.r(b,r)
 while(true)switch(s){case 0:m=p.c
 m.toString
 A.lU(!1,new A.awE(),m,t.z)
-try{if(p.f!=null){o=A.b([],t.FQ)
-m=p.f
+try{if(p.e!=null){o=A.b([],t.FQ)
+m=p.e
 m.toString
 J.dS(o,m)
 A.OO(o).aM(new A.awF(p),t.P)}}catch(l){}q=null
@@ -52753,7 +52753,7 @@ return A.u($async$nw,r)},
 dv(a){var s=0,r=A.v(t.H),q,p=this,o
 var $async$dv=A.w(function(b,c){if(b===1)return A.r(c,r)
 while(true)switch(s){case 0:o=A.qc()
-p.e=o
+p.d=o
 if(o==null){o=p.c
 o.toString
 A.ed(o,"/",!0,B.bq)
@@ -52783,7 +52783,7 @@ s=3
 return A.q(A.aHB(),$async$y6)
 case 3:o=m.aJF(l.jy(b))
 n=new A.vd(B.Aj,!1,null,o,$.aA())
-p.r=n
+p.f=n
 o=n.kI(o.CW)
 s=4
 return A.q(t.u.b(o)?o:A.ci(o,t.H),$async$y6)
@@ -52824,7 +52824,7 @@ break
 case 2:p=q.a
 o=o.c
 o===$&&A.a()
-p.f=A.yA(o,null,null,null,null)
+p.e=A.yA(o,null,null,null,null)
 s=5
 return A.q(p.la(),$async$$0)
 case 5:o=p.c
@@ -52840,7 +52840,7 @@ A.awp.prototype={
 $1(a){var s,r,q,p,o=null,n=$.c3().d
 n===$&&A.a()
 s=this.a
-r=s.f.c
+r=s.e.c
 r===$&&A.a()
 q=t.h9
 p=t.D
@@ -52848,7 +52848,7 @@ return A.b0(o,A.ib(A.dH(A.b([A.aLw(r,B.jd,17976931348623157e292),A.bz(o,20,o),A.
 $S:95}
 A.awn.prototype={
 $0(){var s=this.a
-s.f=null
+s.e=null
 A.bM(this.b,!1).cl(null)
 s.a0(new A.awm())},
 $S:0}
@@ -52873,14 +52873,14 @@ l===$&&A.a()
 l=l.a
 s=l.b
 r=this.a
-q=r.r
+q=r.f
 q.toString
 l=A.b0(m,new A.AP(q,m,m),B.i,m,m,s*0.8,m,m,l.a)
 q=A.bz(m,20,m)
 p=t.h9
 o=A.py(B.h7,A.b0(m,B.m0,B.i,m,m,m,m,m,100),new A.awv(a),A.ia(m,m,new A.bv(B.hG,p),m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m))
 n=A.bz(m,m,10)
-r=r.f!=null?A.py(B.eE,A.b0(m,B.iy,B.i,m,m,m,m,m,100),new A.aww(r),A.ia(m,m,new A.bv(B.b6,p),m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m)):A.py(B.eE,A.b0(m,B.a34,B.i,m,m,m,m,m,100),new A.awx(r,a),A.ia(m,m,new A.bv(B.b6,p),m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m))
+r=r.e!=null?A.py(B.eE,A.b0(m,B.iy,B.i,m,m,m,m,m,100),new A.aww(r),A.ia(m,m,new A.bv(B.b6,p),m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m)):A.py(B.eE,A.b0(m,B.a34,B.i,m,m,m,m,m,100),new A.awx(r,a),A.ia(m,m,new A.bv(B.b6,p),m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m))
 p=t.D
 return A.b0(m,A.ib(A.dH(A.b([l,q,A.fm(A.b([o,n,r],p),B.F,B.aw,B.Q),A.bz(m,16,m)],p),B.F,B.aw,B.bQ),m,m),B.i,m,m,s,m,m,m)},
 $S:95}
@@ -52907,10 +52907,10 @@ while(true)switch(s){case 0:n=q.b
 A.lU(!1,new A.awt(),n,t.z)
 p=q.a
 s=2
-return A.q(p.r.ig(),$async$$0)
+return A.q(p.f.ig(),$async$$0)
 case 2:o=b
 A.bM(n,!1).cl(null)
-p.f=o
+p.e=o
 s=3
 return A.q(p.la(),$async$$0)
 case 3:A.bM(n,!1).cl(null)
@@ -52932,7 +52932,7 @@ l===$&&A.a()
 l=l.a
 s=l.b
 r=this.a
-q=r.f.c
+q=r.e.c
 q===$&&A.a()
 l=A.b0(m,A.aLw(q,B.jd,17976931348623157e292),B.i,m,m,s*0.8,m,m,l.a)
 q=A.bz(m,20,m)
@@ -52945,7 +52945,7 @@ return A.b0(m,A.ib(A.dH(A.b([l,q,A.fm(A.b([o,n,r],p),B.F,B.aw,B.Q),A.bz(m,16,m)]
 $S:95}
 A.awg.prototype={
 $0(){var s=this.a
-s.f=null
+s.e=null
 A.bM(this.b,!1).cl(null)
 s.a0(new A.awf())},
 $S:0}
@@ -52974,7 +52974,7 @@ r=r.h(a,p)!=null&&J.a56(J.bP(r.h(a,p)),0)}else r=!1
 if(r){r=J.a9(a)
 if(r.h(a,p)!=null&&J.a56(J.bP(r.h(a,p)),0)){s=J.aB(r.h(a,p),0)
 r=this.a
-q=r.e
+q=r.d
 q===$&&A.a()
 A.Vo(A.ao(["userName",q.c,"avatarId",J.aB(s,"id")],t.N,t.z)).aM(new A.awD(r),t.P)}}},
 $S:30}
@@ -53008,7 +53008,7 @@ A.bM(r,!1).cl(null)
 s.a0(new A.awA(s))},
 $S:3}
 A.awA.prototype={
-$0(){this.a.f=null},
+$0(){this.a.e=null},
 $S:0}
 A.awC.prototype={
 $0(){var s=this.a,r=s.c
@@ -53020,7 +53020,7 @@ A.ed(r,"/homeScreen",!0,B.bU)
 s.a0(new A.awz(s))},
 $S:3}
 A.awz.prototype={
-$0(){this.a.f=null},
+$0(){this.a.e=null},
 $S:0}
 A.awr.prototype={
 $0(){},
@@ -53655,7 +53655,7 @@ q===$&&A.a()
 if(q==null||q.r==null)p=new A.v5("assets/images/default_avatar.jpeg")
 else{p=q.r
 p.toString
-p=new A.rZ("http://appaparking.dthu.edu.vn/api/v1/files/view/"+p,1,j)}g=A.b0(j,j,B.i,j,new A.cD(j,new A.vJ(p,B.D8),j,new A.cy(B.E,B.E,new A.aK(r.a.a*0.5,100),new A.aK(s.a.a*0.5,100)),j,j,B.a8),g.a.a,j,j,j)
+p=new A.rZ("https://appaparking.dthu.edu.vn/api/v1/files/view/"+p,1,j)}g=A.b0(j,j,B.i,j,new A.cD(j,new A.vJ(p,B.D8),j,new A.cy(B.E,B.E,new A.aK(r.a.a*0.5,100),new A.aK(s.a.a*0.5,100)),j,j,B.a8),g.a.a,j,j,j)
 s=q.e
 s.toString
 q=q.d
@@ -115669,7 +115669,7 @@ r($,"beu","aUc",()=>A.oj(new A.aDI()))
 r($,"bet","aUb",()=>A.oj(new A.aDH()))
 r($,"bez","aUh",()=>A.oj(new A.aDN()))
 s($,"bax","aIo",()=>{var q="application/json",p=null
-return A.aEB("http://appaparking.dthu.edu.vn/api/v1/",p,q,p,p,A.ao(["Accept","*","Content-Type",q],t.N,t.z),p,p,p,p,!1,p,p,p,p,p,B.e4,p,p)})
+return A.aEB("https://appaparking.dthu.edu.vn/api/v1/",p,q,p,p,A.ao(["Accept","*","Content-Type",q],t.N,t.z),p,p,p,p,!1,p,p,p,p,p,B.e4,p,p)})
 s($,"bcc","aSU",()=>A.aH4(B.hp,B.pQ,257,286,15))
 s($,"bcb","aST",()=>A.aH4(B.pN,B.ho,0,30,15))
 s($,"bca","aSS",()=>A.aH4(null,B.P3,0,19,7))
